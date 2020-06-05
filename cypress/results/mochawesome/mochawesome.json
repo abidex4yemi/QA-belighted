@@ -1,0 +1,125 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 2,
+    "pending": 0,
+    "failures": 0,
+    "start": "2020-06-04T17:15:00.212Z",
+    "end": "2020-06-04T17:15:16.242Z",
+    "duration": 16030,
+    "testsRegistered": 2,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "dde7eb70-9c11-4dbe-ab3f-3fd6068b6b63",
+      "title": "",
+      "fullFile": "cypress/e2e/login.spec.js",
+      "file": "cypress/e2e/login.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "b3d1978f-be9d-4ce9-a595-e5f4514b79b2",
+          "title": "Login page [Test suite]",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "should log in an existing user with valid email/password",
+              "fullTitle": "Login page [Test suite] should log in an existing user with valid email/password",
+              "timedOut": null,
+              "duration": 11864,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "var email = Cypress.env('email');\nvar password = Cypress.env('password');\n_page_objects.auth.login({\n  email: email,\n  password: password\n});\ncy.assertDashboardDisplayed();\n_page_objects.auth.assertLoggedInUser();",
+              "err": {},
+              "uuid": "cbf45317-6eab-4845-95be-ae899175aa29",
+              "parentUUID": "b3d1978f-be9d-4ce9-a595-e5f4514b79b2",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "should display error message if email/password are incorrect",
+              "fullTitle": "Login page [Test suite] should display error message if email/password are incorrect",
+              "timedOut": null,
+              "duration": 4067,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "var email = 'invalid';\nvar password = 'invalid';\n_page_objects.auth.login({\n  email: email,\n  password: password\n});\nvar expectedErrorMessage = 'Courriel ou mot de passe incorrect';\n_page_objects.error.assertInvalidEmailAndPassword(expectedErrorMessage);",
+              "err": {},
+              "uuid": "fb1106de-d467-4339-b691-85f637e7a254",
+              "parentUUID": "b3d1978f-be9d-4ce9-a595-e5f4514b79b2",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "cbf45317-6eab-4845-95be-ae899175aa29",
+            "fb1106de-d467-4339-b691-85f637e7a254"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 15931,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.1.1"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/results/mochawesome",
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "5.1.0"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "title": "Why server side rendering",
+    "description": "It's important because...",
+    "duration": "25",
+    "stepOneData": {
+      "title": "step 1 sample title",
+      "description": "<p>This is a sample description, <b>Yea it works</b></p>",
+      "imageName": "sampleImage.png"
+    },
+    "stepTwoData": {
+      "title": "step 2 title",
+      "url": "https://media.istockphoto.com/videos/people-business-animation-video-id1160273393"
+    }
+  },
+  {
+    "title": "Why Docker?",
+    "description": "It's important because...",
+    "duration": "30",
+    "stepOneData": {
+      "title": "step 1 sample title",
+      "description": "<p>This is a sample description, <b>Yea it works</b></p>",
+      "imageName": "sampleImage.png"
+    },
+    "stepTwoData": {
+      "title": "step 2 title",
+      "url": "https://media.istockphoto.com/videos/people-business-animation-video-id1160273393"
+    }
+  }
+]

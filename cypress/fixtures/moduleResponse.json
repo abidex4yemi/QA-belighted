@@ -1,0 +1,72 @@
+{
+  "data": {
+    "protomodules": {
+      "nodes": [
+        {
+          "id": 278,
+          "type": "Protomodules::LearningProtomodule",
+          "title": "Why server side rendering",
+          "status": "draft",
+          "trainers": [
+            {
+              "id": 56,
+              "full_name": "Michael Albert",
+              "__typename": "User"
+            }
+          ],
+          "policy": {
+            "edit": true,
+            "duplicate": true,
+            "archive": false,
+            "unarchive": false,
+            "__typename": "ProtomodulePolicy"
+          },
+          "__typename": "LearningProtomodule"
+        },
+        {
+          "id": 221,
+          "type": "Protomodules::LearningProtomodule",
+          "title": "Module116.92707886422494",
+          "status": "published",
+          "trainers": [
+            {
+              "id": 56,
+              "full_name": "Michael Albert",
+              "__typename": "User"
+            }
+          ],
+          "policy": {
+            "edit": true,
+            "duplicate": true,
+            "archive": true,
+            "unarchive": false,
+            "__typename": "ProtomodulePolicy"
+          },
+          "__typename": "LearningProtomodule"
+        },
+        {
+          "id": 190,
+          "type": "Protomodules::LearningProtomodule",
+          "title": "test mal",
+          "status": "published",
+          "trainers": [
+            {
+              "id": 56,
+              "full_name": "Michael Albert",
+              "__typename": "User"
+            }
+          ],
+          "policy": {
+            "edit": true,
+            "duplicate": true,
+            "archive": true,
+            "unarchive": false,
+            "__typename": "ProtomodulePolicy"
+          },
+          "__typename": "LearningProtomodule"
+        }
+      ],
+      "__typename": "ProtomoduleConnection"
+    }
+  }
+}

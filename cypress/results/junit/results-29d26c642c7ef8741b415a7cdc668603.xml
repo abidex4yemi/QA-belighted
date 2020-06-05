@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="15.9310" tests="2" failures="0">
+  <testsuite name="Root Suite" timestamp="2020-06-04T17:15:00" tests="0" file="cypress/e2e/login.spec.js" time="0.0000" failures="0">
+  </testsuite>
+  <testsuite name="Login page [Test suite]" timestamp="2020-06-04T17:15:00" tests="2" time="15.9310" failures="0">
+    <testcase name="Login page [Test suite] should log in an existing user with valid email/password" time="11.8640" classname="should log in an existing user with valid email/password">
+    </testcase>
+    <testcase name="Login page [Test suite] should display error message if email/password are incorrect" time="4.0670" classname="should display error message if email/password are incorrect">
+    </testcase>
+  </testsuite>
+</testsuites>
