@@ -24,7 +24,7 @@
     "is-ci": "^2.0.0",
     "is-ci-cli": "^2.0.0",
     "junit-merge": "^2.0.0",
-    "mocha": "^7.2.0",
+    "mocha": "^10.2.0",
     "opener": "^1.5.1",
     "start-server-and-test": "^1.11.0"
   },
